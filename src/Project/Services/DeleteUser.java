@@ -12,7 +12,7 @@ public class DeleteUser {
 
     public static void deleteFromFIle(String code){
         try{
-            FileReader fileReader = new FileReader("storage.txt");
+            FileReader fileReader = new FileReader("C:\\Users\\User\\eclipse-workspace\\MiniProject\\src\\Project\\Services\\storage.txt");
             BufferedReader br = new BufferedReader(fileReader);
             List<String> lines = new ArrayList<String>();
             String line = null;
