@@ -44,7 +44,7 @@ public class AddUser {
     public static void printInFile(LinkedList<User> list){
         Iterator<User> iterator = list.iterator();
         try{
-            FileReader fileReader = new FileReader("storage.txt");
+            FileReader fileReader = new FileReader("C:\\Users\\use\\IdeaProjects\\MiniProject\\src\\Project\\Services\\storage.txt");
             BufferedReader br = new BufferedReader(fileReader);
             List<String> lines = new ArrayList<String>();
             String line = null;
