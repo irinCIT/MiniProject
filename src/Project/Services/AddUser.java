@@ -70,7 +70,7 @@ public class AddUser {
         iterate through this ArrayList and print the lines into the terminal
      */
     public static void displayList(){
-        System.out.println("\nProject.Services.User registered are: ");
+        System.out.println("\nUsers registered are: ");
         try{
             FileReader fileReader = new FileReader("storage.txt");
             BufferedReader br = new BufferedReader(fileReader);
