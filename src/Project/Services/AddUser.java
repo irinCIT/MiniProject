@@ -55,7 +55,7 @@ public class AddUser {
                 lines.add(iterator.next().toString());
             }
             br.close();
-            FileWriter file = new FileWriter(("storage.txt"));
+            FileWriter file = new FileWriter(("C:\\Users\\User\\eclipse-workspace\\MiniProject\\src\\Project\\Services\\storage.txt"));
             for (String str: lines){
                 file.write(str + "\r\n");
             }
