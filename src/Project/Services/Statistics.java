@@ -151,7 +151,7 @@ public class Statistics {
     public static List<String> readFromFile(){
         List<String> lines = new ArrayList<String>();
         try{
-            FileReader fileReader = new FileReader("storage.txt");
+            FileReader fileReader = new FileReader("C:\\Users\\User\\eclipse-workspace\\MiniProject\\src\\Project\\Services\\storage.txt");
             BufferedReader br = new BufferedReader(fileReader);
             String line = null;
             while ((line = br.readLine()) != null){
