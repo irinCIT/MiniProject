@@ -35,8 +35,6 @@ public class DeleteUser {
             int y = 0;
             if (Arrays.asList(codes).contains(code)){
                 System.out.println("------ Code Found! ------");
-                AddUser.displayList();
-
             }else {
                 while (y < 1) {
                     System.err.println("------ Code Not Found! ------");
@@ -52,8 +50,7 @@ public class DeleteUser {
                 }
             }
             file.close();
-
-
+            AddUser.displayList();
 
         }catch (IOException | Error e){
             System.out.println(e.getMessage());
