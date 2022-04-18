@@ -72,7 +72,7 @@ public class AddUser {
     public static void displayList(){
         System.out.println("\nUsers registered are: ");
         try{
-            FileReader fileReader = new FileReader("storage.txt");
+            FileReader fileReader = new FileReader("C:\\Users\\User\\eclipse-workspace\\MiniProject\\src\\Project\\Services\\storage.txt");
             BufferedReader br = new BufferedReader(fileReader);
             List<String> lines = new ArrayList<String>();
             String line = null;
