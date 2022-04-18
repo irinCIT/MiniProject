@@ -44,7 +44,7 @@ public class DeleteUser {
                 Loops.loop();
             }
 
-            FileWriter file = new FileWriter(("storage.txt"));
+            FileWriter file = new FileWriter(("C:\\Users\\User\\eclipse-workspace\\MiniProject\\src\\Project\\Services\\storage.txt"));
             for (String str: lines){
                 if (!str.contains(code)){
                     file.write(str + "\r\n");
