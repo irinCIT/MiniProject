@@ -6,6 +6,11 @@ import java.util.Scanner;
 public class Loops {
     public static Scanner input = new Scanner(System.in);
 
+    /*
+    these two methods, are called loop and loop 2, their function is to print messages and call methods accordingly
+    to the user input. they do not have any other function, except to print messages, get user Input,
+    call methods accordingly, and loop themselves or other actions
+     */
     public static void loop(){
         int index = 0;
         System.out.println("\nYou can\nAdd (A)\nDelete (D)\nStatistics (S)\nEXIT (E)");

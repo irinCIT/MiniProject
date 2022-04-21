@@ -10,6 +10,11 @@ import java.util.List;
 
 public class DeleteUser {
 
+    /*
+    a void method, that reads the lines from the text file, from each line, stores its value in the 3rd index (which is the userCode),
+    and stores it into an array of strings, checks if the code (a parameter), is in the array of strings,
+    and then writes all the lines that do not contain the code
+     */
     public static void deleteFromFIle(String code){
         try{
             FileReader fileReader = new FileReader("C:\\Users\\User\\eclipse-workspace\\MiniProject\\src\\Project\\Services\\storage.txt");

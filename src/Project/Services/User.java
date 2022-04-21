@@ -7,6 +7,12 @@ public class User {
     protected String userPosition;
     protected String userCode;
 
+    /*
+        in this class, it is a User class, with 2 constructors, one of them has 4 arguments, all of them of the String type,
+        which are the User credentials. then, there are some simple getters and setters for each parameter.
+        in the end there is a toString() method which returns a user object information, all the four credentials, separated by space
+     */
+
     public User(String name, String surname, String pos, String code){
         this.userFirstName = name;
         this.userLastName = surname;
